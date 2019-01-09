@@ -1,10 +1,9 @@
 // Write your solution in this file!
 driver = {
-  name: "Sam",
-  address: "11 Broadway"
 }
 
- function updateDriverWithKeyAndValue(){
-  
+ function updateDriverWithKeyAndValue(driver,key,value){
+  let clone = {...driver}
+  clone[key] = value 
   }
 
