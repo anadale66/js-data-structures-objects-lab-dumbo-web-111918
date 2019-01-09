@@ -3,6 +3,6 @@ driver = {
 }
 
  function updateDriverWithKeyAndValue(driver,key,value){
-      .assign({},driver    )
+    return Object.assign({},driver {key,value});
   }
 
