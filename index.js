@@ -3,7 +3,6 @@ driver = {
 }
 
  function updateDriverWithKeyAndValue(driver,key,value){
-  let clone = {...driver}
-  clone[key] = value 
+      .assign({},driver    )
   }
 
